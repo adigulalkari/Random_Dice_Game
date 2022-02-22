@@ -15,6 +15,14 @@
             background-color: #004444;
         }
         
+        #demo,
+        #demo1 {
+            display: flex;
+            color: #bbb;
+            font-size: 18px;
+            transform: translateX(10px);
+        }
+        
         .boxes {
             display: flex;
         }

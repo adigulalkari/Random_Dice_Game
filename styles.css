@@ -13,7 +13,6 @@
         
         .entire {
             background-color: #004444;
-            /*background-image: url('sebastian-svenson-d2w-_1LJioQ-unsplash.jpg');*/
         }
         
         .boxes {
@@ -220,7 +219,6 @@
             width: 8px;
             height: 90px;
             transform-origin: 50% 100%;
-            /* background-color: rgba(0,0,0,.2); */
             overflow: hidden;
         }
         

@@ -11,8 +11,10 @@
 
 <body>
     <div class="entire">
-        <p id="demo"></p><!--Prints the random value generated-->
+        <p id="demo"></p> <!--Prints the random value generated-->
         <p id="demo1"></p>
+        
+        <!--Title of the page-->
         <div class="guess">
             <h1>
                 <span class="title-word one">Guess</span>
@@ -24,7 +26,9 @@
                 <span class="title-word seven">!!!</span>
             </h1>
         </div>
-
+        <!--Title of the page-->
+        
+        <!--Keypad of numbers-->
         <table cellspacing="8">
             <tr>
                 <td><input type="button" value="1" onclick="display('1')" class="table_data"></td>
@@ -37,35 +41,48 @@
                 <td><input type="button" value="6" onclick="display('6')" class="table_data"></td>
             </tr>
         </table><br>
+        <!--Keypad of numbers ends-->
+        
+        <!--Check and Reset buttons-->
         <table cellspacing="8">
             <tr>
                 <td><input type="button" value="Reset" onclick="reset()" class="table_data1"></td>
                 <td><input type="button" value="Check" onclick="check()" class="table_data1"></td>
             </tr>
         </table>
+        <!--Check and Reset buttons ends-->
 
+        <!--Selected number dispaly-->
         <div class="boxes">
             <p id="box1"></p>
+            
+            <!--Emoji animation-->
             <div class="smile">
                 <img src="fun.png" alt="" style="display: none;" id="smile">
             </div>
+            <!--Emoji animation ends-->
+            
             <p id="box2"></p>
-
         </div>
+        <!--Selected number dispaly ends-->
 
+        <!--Dice images-->
         <div class="dice">
             <img src="" id="diceNo1">
             <img src="" id="diceNo2">
         </div>
+        <!--Dice images ends-->
 
+        <!--Results block-->
         <div class="output">
-
             <label>Result: </label>
             <h1 id="show"></h1>
-
         </div>
+        <!--Results block ends-->
+        
     </div>
 
+    <!--Fireworks animation-->
     <div class="firework" id="firework1" style="display: none;">
         <div class="explosion"></div>
         <div class="explosion"></div>
@@ -136,6 +153,8 @@
         <div class="explosion"></div>
         <div class="explosion"></div>
     </div>
+    <!--Fireworks animation ends-->
+    
     <script src="script.js"></script>
 </body>
 

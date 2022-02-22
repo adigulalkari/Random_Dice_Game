@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="entire">
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <div class="guess">
+            <h1>
+                <span class="title-word one">Guess</span>
+                <span class="title-word two">The</span>
+                <span class="title-word three">Number</span>
+                <span class="title-word four">On</span>
+                <span class="title-word five">The</span>
+                <span class="title-word six">Dice</span>
+                <span class="title-word seven">!!!</span>
+            </h1>
+        </div>
+        <!--<div class="dice_images" style="display: none;">
+            <img src="dice1.png" alt="" id="dice1">
+            <img src="dice2.png" alt="" id="dice2">
+            <img src="dice3.png" alt="" id="dice3">
+            <img src="dice4.png" alt="" id="dice4">
+            <img src="dice5.png" alt="" id="dice5">
+            <img src="dice6.png" alt="" id="dice6">
+        </div>-->
+        <table cellspacing="8">
+            <tr>
+                <td><input type="button" value="1" onclick="display('1')" class="table_data"></td>
+                <td><input type="button" value="2" onclick="display('2')" class="table_data"></td>
+                <td><input type="button" value="3" onclick="display('3')" class="table_data"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="display('4')" class="table_data"></td>
+                <td><input type="button" value="5" onclick="display('5')" class="table_data"></td>
+                <td><input type="button" value="6" onclick="display('6')" class="table_data"></td>
+            </tr>
+        </table><br>
+        <table cellspacing="8">
+            <tr>
+                <td><input type="button" value="Reset" onclick="reset()" class="table_data1"></td>
+                <td><input type="button" value="Check" onclick="check()" class="table_data1"></td>
+            </tr>
+        </table>
+        <!--<input type="submit" onclick="showInput();"><br/>-->
+        <div class="boxes">
+            <p id="box1"></p>
+            <div class="smile">
+                <img src="fun.png" alt="" style="display: none;" id="smile">
+            </div>
+            <p id="box2"></p>
+
+        </div>
+
+        <div class="dice">
+            <img src="" id="diceNo1">
+            <img src="" id="diceNo2">
+        </div>
+
+        <!--<button onclick="start()">STOP</button>-->
+        <div class="output">
+
+            <label>Result: </label>
+            <h1 id="show"></h1>
+
+        </div>
+    </div>
+
+    <div class="firework" id="firework1" style="display: none;">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework2" style="display: none;">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework3" style="display: none;">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework4" style="display: none;">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework5" style="display: none;">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
